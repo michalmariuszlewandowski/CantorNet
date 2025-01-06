@@ -13,7 +13,7 @@ If you like our work and would like to cite us, please use the following BibTeX 
 ```bibtex
 @InProceedings{lewandowski2024cantornet,
     author    = {Lewandowski, Michal and Eghbal-zadeh, Hamid and Moser, Bernhard A.},
-    title     = {CantorNet: A Sandbox for Testing Topological and Geometrical Measures},
+    title     = {CantorNet: A Sandbox For Testing Geometrical and Topological Complexity Measures},
     booktitle = {NeurIPS Workshop on Symmetry and Geometry in Neural Representations},
     series    = {Proceedings of Machine Learning Research},
     year      = {2024}
