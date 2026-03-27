@@ -1,0 +1,9 @@
+[project]
+name = "cantornet"
+version = "0.1.0"
+description = "Compact math utilities for constructing CantorNet decision boundaries"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+]
