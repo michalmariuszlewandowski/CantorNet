@@ -5,7 +5,7 @@ Compact reference code for constructing the CantorNet decision boundary and its 
 **"CantorNet: A Sandbox for Testing Topological and Geometrical Measures"**  
 OpenReview: <https://openreview.net/forum?id=fekgfpKJXi>
 
-The repository is intentionally small. Its goal is to expose the core math cleanly:
+The code exposes the core construction directly:
 
 - exact finite Cantor-set approximations using `Fraction`
 - piecewise-linear CantorNet boundary vertices and hyperplanes
@@ -43,8 +43,7 @@ dnf = dnf_representation_weights(
 ## Notes
 
 - The implementation prefers exact rational arithmetic where that helps keep the geometry interpretable.
-- `main.py` is a lightweight inspection CLI rather than a training script.
-- The code is aimed at research demos and reproducible constructions, not a general deep-learning framework.
+- `main.py` provides a small inspection CLI for the constructions above.
 
 ## Citation
 
